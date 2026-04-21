@@ -1,6 +1,6 @@
 public class Sorting {
 
-    // 🔵 Bubble Sort
+    //  Bubble Sort
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
 
@@ -17,7 +17,7 @@ public class Sorting {
         }
     }
 
-    // 🟡 Selection Sort
+    //  Selection Sort
     public static void selectionSort(int[] arr) {
         int n = arr.length;
 
@@ -36,7 +36,7 @@ public class Sorting {
         }
     }
 
-    // 🟠 Insertion Sort
+    //  Insertion Sort
     public static void insertionSort(int[] arr) {
         int n = arr.length;
 

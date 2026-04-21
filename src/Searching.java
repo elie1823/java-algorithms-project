@@ -1,6 +1,6 @@
 public class Searching {
 
-    // 🔵 Linear Search
+    //  Linear Search
     public static int linearSearch(int[] arr, int target) {
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
@@ -10,7 +10,7 @@ public class Searching {
         return -1;
     }
 
-    // 🟡 Binary Search (tableau trié obligatoire)
+    //  Binary Search (tableau trié obligatoire)
     public static int binarySearch(int[] arr, int target) {
         int left = 0;
         int right = arr.length - 1;
